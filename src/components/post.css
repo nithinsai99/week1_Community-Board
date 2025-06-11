@@ -1,0 +1,20 @@
+.post {
+    display: inline-block;
+    padding-bottom: 20%;
+    display: block;
+    background-color: aliceblue;
+    color: black;
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.post img{
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  object-fit: fill;
+  object-position: 15% 100%;
+}
